@@ -3,9 +3,9 @@ class CreateWritingSessions < ActiveRecord::Migration[5.0]
     create_table :writing_sessions do |t|
       t.integer :hours
       t.integer :words
-      t.integer :pages 
+      t.integer :pages
       t.integer :minutes
-      t.integer :writer_id
+      t.integer :user_id
       t.timestamps
     end
   end

@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20161024011221) do
     t.integer  "words"
     t.integer  "pages"
     t.integer  "minutes"
-    t.integer  "writer_id"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
